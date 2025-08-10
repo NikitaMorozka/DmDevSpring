@@ -13,3 +13,10 @@ db:
   pools:
     - size: 10
     - size: 20
+logging:
+  level:
+    root: warn
+    com.nikita.dmdevspring.database.pool.ConnectionPool: INFO
+  file:
+      name: nikita.log
+      path: /

@@ -5,6 +5,7 @@ import com.nikita.dmdevspring.database.bpp.Transaction;
 import com.nikita.dmdevspring.database.pool.ConnectionPool;
 import com.nikita.dmdevspring.database.entity.Company;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
@@ -17,6 +18,7 @@ import java.util.Optional;
 @Repository
 @Scope("prototype")
 @RequiredArgsConstructor
+@Slf4j
 public class CompanyRepository implements CrudRepository<Integer, Company> {
 
     private final ConnectionPool pool1;
@@ -25,7 +27,7 @@ public class CompanyRepository implements CrudRepository<Integer, Company> {
 
     @PostConstruct
     private void init() {
-        System.out.println("init company repository");
+        log.warn("init company repository");
     }
 
     @Override
