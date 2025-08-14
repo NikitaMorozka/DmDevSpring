@@ -1,7 +1,7 @@
 package com.nikita.dmdevspring.service;
 
 import com.nikita.dmdevspring.database.entity.Company;
-import com.nikita.dmdevspring.database.repository.CrudRepository;
+import com.nikita.dmdevspring.database.repository.CompanyRepository;
 import com.nikita.dmdevspring.dto.CompanyReadDto;
 import com.nikita.dmdevspring.listener.entity.EntityEvent;
 import org.junit.jupiter.api.Test;
@@ -11,6 +11,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.context.ApplicationEventPublisher;
 
+import java.util.Collections;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -24,7 +25,7 @@ class CompanyServiceTest {
     private static Integer COMPANY_ID = 1;
 
     @Mock
-    private CrudRepository<Integer, Company> companyCrudRepository;
+    private CompanyRepository companyRepository;
 
     @Mock
     private UserService userService;
@@ -39,8 +40,8 @@ class CompanyServiceTest {
 
     @Test
     void findById_positiveTest(){
-        when(companyCrudRepository.findById(COMPANY_ID))
-                .thenReturn(Optional.of(new Company(COMPANY_ID)));
+        when(companyRepository.findById(COMPANY_ID))
+                .thenReturn(Optional.of(new Company(COMPANY_ID, null, Collections.EMPTY_MAP)));
 
         Optional<CompanyReadDto> byId = companyService.findById(COMPANY_ID);
 

@@ -1,43 +1,22 @@
 package com.nikita.dmdevspring.database.repository;
 
-import com.nikita.dmdevspring.database.bpp.Auditing;
-import com.nikita.dmdevspring.database.bpp.Transaction;
-import com.nikita.dmdevspring.database.pool.ConnectionPool;
 import com.nikita.dmdevspring.database.entity.Company;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.query.Param;
 
-import javax.annotation.PostConstruct;
+import java.util.List;
 import java.util.Optional;
 
-@Transaction
-@Auditing
-@Repository
-@Scope("prototype")
-@RequiredArgsConstructor
-@Slf4j
-public class CompanyRepository implements CrudRepository<Integer, Company> {
+public interface CompanyRepository extends JpaRepository<Company, Integer> {
 
-    private final ConnectionPool pool1;
-    @Value("${db.pool.size}")
-    private final Integer poolSize;
+//    @Query(name = "Company.findByName")
+    @Query("select c from Company c " +
+           "join fetch c.locales cl " +
+           "where c.name = :name2")
+    Optional<Company>findByName(@Param("name2") String name);
 
-    @PostConstruct
-    private void init() {
-        log.warn("init company repository");
-    }
-
-    @Override
-    public Optional<Company> findById(Integer id) {
-        System.out.println("findById method...");
-        return Optional.of(new Company(id));
-    }
-
-    @Override
-    public void delete(Company entity) {
-        System.out.println("delete method...");
-    }
+    List<Company> findByNameContainingIgnoreCase(String fragment);
 }

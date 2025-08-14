@@ -1,8 +1,7 @@
 package com.nikita.dmdevspring.config;
 
 import com.nikita.dmdevspring.database.pool.ConnectionPool;
-import com.nikita.dmdevspring.database.repository.CrudRepository;
-import com.nikita.dmdevspring.database.repository.UserRepository;
+
 import com.nikita.web.config.WebConfiguration;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -27,17 +26,4 @@ public class ApplicationConfiguration {
         return new ConnectionPool("test-pool", 25);
     }
 
-    @Bean
-    @Profile("prod")
-    public UserRepository userRepository(ConnectionPool pool2){
-        return new UserRepository(pool2);
-    }
-
-    @Bean
-    public UserRepository userRepository2(){
-        var connectionPool1 = pool3();
-        var connectionPool2 = pool3();
-        var connectionPoo3 = pool3();
-        return new UserRepository(pool3());
-    }
 }
