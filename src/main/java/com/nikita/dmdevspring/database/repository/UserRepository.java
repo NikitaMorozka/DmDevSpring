@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -25,9 +26,13 @@ public interface UserRepository extends JpaRepository<User, Long> {
             nativeQuery = true)
     List<User> findAllByUsername(String username);
 
+
     @Modifying(clearAutomatically = true)
     @Query("update User u " +
     "set u.role = :role " +
     "where u.id in (:ids)")
     int updateRole(Role role, Long... ids);
+
+    Optional<User> findTopByOrderByIdDesc();
+
 }

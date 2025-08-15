@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,6 +16,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserRepositoryTest {
     @Autowired private UserRepository userRepository;
 
+
+    @Test
+    void checkFirstTop(){
+        var topByOrderByIdDesc = userRepository.findTopByOrderByIdDesc();
+        assertTrue(topByOrderByIdDesc.isPresent());
+        topByOrderByIdDesc.ifPresent(user -> assertEquals(5L, user.getId()));
+    }
 
     @Test
     void checkQueries() {

@@ -4,56 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45d28929-cfec-422f-a4e5-1fc614342b24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/DmDevSpring.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/UserChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/TestApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/annotation/IT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/CompanyRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/application-test.yml " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
+    <list default="true" id="45d28929-cfec-422f-a4e5-1fc614342b24" name="Changes" comment="#2">
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/DmDevSpring.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/DmDevSpring.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/DmDevSpringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/DmDevSpringApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/entity/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/entity/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/CompanyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/CompanyRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/CrudRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/service/CompanyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/service/CompanyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/config/ApplicationConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/config/ApplicationConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/DmDevSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/DmDevSpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/config/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/CrudRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/service/CompanyServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/service/CompanyServiceIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/service/CompanyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/service/CompanyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +106,7 @@
     "Gradle.CompanyRepositoryTest.save.executor": "Run",
     "Gradle.CompanyServiceIT.findById.executor": "Run",
     "Gradle.CompanyServiceTest.findById_positiveTest.executor": "Run",
+    "Gradle.UserRepositoryTest.checkFirstTop.executor": "Run",
     "Gradle.UserRepositoryTest.checkQueries.executor": "Debug",
     "Gradle.UserRepositoryTest.checkUpdate.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -194,7 +156,7 @@
       <recent name="com.nikita.dmdevspring" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserRepositoryTest.checkUpdate">
+  <component name="RunManager" selected="Gradle.UserRepositoryTest.checkFirstTop">
     <configuration name="CompanyRepositoryTest.checkFindByQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,30 +181,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CompanyRepositoryTest.findById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.CompanyRepositoryTest.findById&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="CompanyRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -257,6 +195,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.nikita.dmdevspring.integration.database.repository.CompanyRepositoryTest.save&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest.checkFirstTop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.UserRepositoryTest.checkFirstTop&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -324,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserRepositoryTest.checkFirstTop" />
         <item itemvalue="Gradle.UserRepositoryTest.checkUpdate" />
         <item itemvalue="Gradle.UserRepositoryTest.checkQueries" />
         <item itemvalue="Gradle.CompanyRepositoryTest.checkFindByQueries" />
         <item itemvalue="Gradle.CompanyRepositoryTest.save" />
-        <item itemvalue="Gradle.CompanyRepositoryTest.findById" />
       </list>
     </recent_temporary>
   </component>
@@ -352,8 +314,17 @@
       <workItem from="1754626979639" duration="154000" />
       <workItem from="1754652586541" duration="8219000" />
       <workItem from="1755104365318" duration="1199000" />
-      <workItem from="1755205564516" duration="7028000" />
+      <workItem from="1755205564516" duration="10483000" />
     </task>
+    <task id="LOCAL-00001" summary="#2">
+      <option name="closed" value="true" />
+      <created>1755213493733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755213493733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +341,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -380,7 +355,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java</url>
-          <line>22</line>
+          <line>30</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
