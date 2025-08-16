@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45d28929-cfec-422f-a4e5-1fc614342b24" name="Changes" comment="#2">
+    <list default="true" id="45d28929-cfec-422f-a4e5-1fc614342b24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/FilterUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/FilterUserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/dto/PersonalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/dto/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/config/ApplicationConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/config/ApplicationConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/nikita/dmdevspring/database/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikita/dmdevspring/database/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/service/CompanyServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/service/CompanyServiceIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +53,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="DmDevSpring" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="DmDevSpring" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -60,16 +65,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -80,13 +83,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/NikitaMorozka/DmDevSpring.git&quot;,
-    &quot;accountId&quot;: &quot;fe72ecb0-940e-4991-8175-3c764d5883ef&quot;
+    &quot;accountId&quot;: &quot;b2707f5d-90ca-4799-ae07-520a2461dc0a&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -100,15 +103,12 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build DmDevSpring.executor": "Run",
-    "Gradle.CompanyRepositoryTest.checkFindByQueries.executor": "Run",
-    "Gradle.CompanyRepositoryTest.executor": "Debug",
-    "Gradle.CompanyRepositoryTest.findById.executor": "Run",
-    "Gradle.CompanyRepositoryTest.save.executor": "Run",
     "Gradle.CompanyServiceIT.findById.executor": "Run",
     "Gradle.CompanyServiceTest.findById_positiveTest.executor": "Run",
+    "Gradle.DmDevSpring [dependencies].executor": "Run",
+    "Gradle.UserRepositoryTest.check.executor": "Run",
     "Gradle.UserRepositoryTest.checkFirstTop.executor": "Run",
-    "Gradle.UserRepositoryTest.checkQueries.executor": "Debug",
-    "Gradle.UserRepositoryTest.checkUpdate.executor": "Run",
+    "Gradle.UserRepositoryTest.checkPageable.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -122,7 +122,6 @@
     "Spring Boot.DmDevSpringApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/a---/DmDevSpring",
@@ -133,22 +132,16 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.nikita.dmdevspring.database.entity" />
+      <recent name="com.nikita.dmdevspring.database.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.nikita.dmdevspring.integration.database.repository" />
       <recent name="com.nikita.dmdevspring.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -156,8 +149,8 @@
       <recent name="com.nikita.dmdevspring" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserRepositoryTest.checkFirstTop">
-    <configuration name="CompanyRepositoryTest.checkFindByQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DmDevSpring [dependencies]">
+    <configuration name="CompanyServiceIT.findById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.CompanyRepositoryTest.checkFindByQueries&quot;" />
+            <option value="&quot;com.nikita.dmdevspring.integration.service.CompanyServiceIT.findById&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,7 +174,29 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CompanyRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DmDevSpring [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest.check" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.CompanyRepositoryTest.save&quot;" />
+            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.UserRepositoryTest.check&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,7 +244,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserRepositoryTest.checkQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRepositoryTest.checkPageable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -242,31 +257,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.UserRepositoryTest.checkQueries&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserRepositoryTest.checkUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.UserRepositoryTest.checkUpdate&quot;" />
+            <option value="&quot;com.nikita.dmdevspring.integration.database.repository.UserRepositoryTest.checkPageable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -286,19 +277,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DmDevSpring [dependencies]" />
+        <item itemvalue="Gradle.UserRepositoryTest.check" />
         <item itemvalue="Gradle.UserRepositoryTest.checkFirstTop" />
-        <item itemvalue="Gradle.UserRepositoryTest.checkUpdate" />
-        <item itemvalue="Gradle.UserRepositoryTest.checkQueries" />
-        <item itemvalue="Gradle.CompanyRepositoryTest.checkFindByQueries" />
-        <item itemvalue="Gradle.CompanyRepositoryTest.save" />
+        <item itemvalue="Gradle.UserRepositoryTest.checkPageable" />
+        <item itemvalue="Gradle.CompanyServiceIT.findById" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -313,52 +304,10 @@
       <workItem from="1754626642655" duration="8000" />
       <workItem from="1754626979639" duration="154000" />
       <workItem from="1754652586541" duration="8219000" />
-      <workItem from="1755104365318" duration="1199000" />
-      <workItem from="1755205564516" duration="10483000" />
     </task>
-    <task id="LOCAL-00001" summary="#2">
-      <option name="closed" value="true" />
-      <created>1755213493733</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1755213493733</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/CompanyRepositoryTest.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/nikita/dmdevspring/integration/database/repository/UserRepositoryTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

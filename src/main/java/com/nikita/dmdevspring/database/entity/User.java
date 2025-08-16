@@ -7,6 +7,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedEntityGraph(
+        name = "User.component",
+        attributeNodes = @NamedAttributeNode("company"))
 @Entity
 @ToString(exclude = "userChats")
 @EqualsAndHashCode(of = "username")
@@ -16,7 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User implements BaseEntity<Long>{
+public class User implements BaseEntity<Long> {
 
     @Id
     private Long id;
@@ -25,7 +28,7 @@ public class User implements BaseEntity<Long>{
     private String username;
 
     @Column(name = "birth_date")
-    private LocalDate date;
+    private LocalDate birthDate;
 
     private String firstname;
 
